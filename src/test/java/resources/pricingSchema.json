@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "status",
+    "message",
+    "data"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "freightCharges",
+        "fuelCharges",
+        "accessorialCharges",
+        "totalCharges"
+      ],
+      "properties": {
+        "freightCharges": {
+          "type": "number"
+        },
+        "fuelCharges": {
+          "type": "number"
+        },
+        "accessorialCharges": {
+          "type": "number"
+        },
+        "discount": {
+          "type": "number"
+        },
+        "tax": {
+          "type": "number"
+        },
+        "totalCharges": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "breakdown": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["code", "description", "amount"],
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
