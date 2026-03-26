@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 25 12:34:07 IST 2026</td>
+<td>Started on:</td><td>Thu Mar 26 11:03:31 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21573 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4195 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,30 +76,185 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=AB, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=130.0, skidCount=1.0, destinationCity=EDMONTON, xDock=FALSE, pieces=1.0, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40.0, weightUoM=kg, custAccountId=461313.0, declaredWeight=4500.0, accessorial1Value=, originProvince=ON, height=70.0}</td>
-<td></td>
-<td>14</td>
-<td>testAPI.PricingTest@6a988392</td></tr>
+<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=QC, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=2.0, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2.0, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145.0, weightUoM=kg, custAccountId=456725.0, declaredWeight=700.0, accessorial1Value=RAIL, originProvince=BC, height=70.0}</td>
+<td><div><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div><a href='#' onClick='toggleBox("stack-trace133947243", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace133947243'><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>3</td>
+<td>testAPI.PricingTest@663411de</td></tr>
 <tr>
 <td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=ON, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=120.0, skidCount=3.0, destinationCity=LONDON, xDock=FALSE, pieces=3.0, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=AIRDRIE, width=48.0, weightUoM=kg, custAccountId=492279.0, declaredWeight=4500.0, accessorial1Value=RAIL, originProvince=AB, height=70.0}</td>
-<td></td>
-<td>20</td>
-<td>testAPI.PricingTest@6a988392</td></tr>
-<tr>
-<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=AB, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=3.0, destinationCity=RED DEER, xDock=FALSE, pieces=3.0, accessorial3Code=, dimUoM=in, accessorial1Code=TG, accessorial3Value=, originCity=ORANGEVILLE, width=60.0, weightUoM=kg, custAccountId=481041.0, declaredWeight=800.0, accessorial1Value=DELIVERY, originProvince=ON, height=70.0}</td>
-<td></td>
-<td>14</td>
-<td>testAPI.PricingTest@6a988392</td></tr>
+<td><div><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1270529368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1270529368'><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>3</td>
+<td>testAPI.PricingTest@663411de</td></tr>
 <tr>
 <td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=SK, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=70.0, skidCount=1.0, destinationCity=REGINA, xDock=FALSE, pieces=1.0, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=GUELPH, width=40.0, weightUoM=kg, custAccountId=479637.0, declaredWeight=5000.0, accessorial1Value=RAIL, originProvince=ON, height=60.0}</td>
-<td></td>
-<td>16</td>
-<td>testAPI.PricingTest@6a988392</td></tr>
+<td><div><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1144394048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1144394048'><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>3</td>
+<td>testAPI.PricingTest@663411de</td></tr>
 <tr>
-<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=QC, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=2.0, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2.0, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145.0, weightUoM=kg, custAccountId=456725.0, declaredWeight=700.0, accessorial1Value=RAIL, originProvince=BC, height=70.0}</td>
-<td></td>
-<td>16</td>
-<td>testAPI.PricingTest@6a988392</td></tr>
+<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=AB, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=130.0, skidCount=1.0, destinationCity=EDMONTON, xDock=FALSE, pieces=1.0, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40.0, weightUoM=kg, custAccountId=461313.0, declaredWeight=4500.0, accessorial1Value=, originProvince=ON, height=70.0}</td>
+<td><div><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div><a href='#' onClick='toggleBox("stack-trace642007837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace642007837'><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>3</td>
+<td>testAPI.PricingTest@663411de</td></tr>
+<tr>
+<td title='testAPI.PricingTest.pricingTest()'><b>pricingTest</b><br>Test class: testAPI.PricingTest<br>Parameters: {destinationProvince=AB, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=3.0, destinationCity=RED DEER, xDock=FALSE, pieces=3.0, accessorial3Code=, dimUoM=in, accessorial1Code=TG, accessorial3Value=, originCity=ORANGEVILLE, width=60.0, weightUoM=kg, custAccountId=481041.0, declaredWeight=800.0, accessorial1Value=DELIVERY, originProvince=ON, height=70.0}</td>
+<td><div><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1465938236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1465938236'><pre>java.lang.AssertionError: HTTP Status Code not 200
+	at org.testng.Assert.fail(Assert.java:111)
+	at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+</pre></div></td>
+<td>3</td>
+<td>testAPI.PricingTest@663411de</td></tr>
 </table><p>
 </body>
 </html>

@@ -49,6 +49,7 @@ public class PricingTest extends BaseTest {
 		    String env=ConfigManager.get("env");
 		    String urlString=ConfigManager.get("base.url");
 		    String pathString=ConfigManager.get("pricing.endpoint");
+		    String errorMessage = response.jsonPath().getString("errors");
 
 		    // Log request data
 		    ReportManager.test.get().info("Request Data: " + data);
@@ -62,6 +63,7 @@ public class PricingTest extends BaseTest {
 		    ReportManager.test.get().info("Execution Environment:" + env);
 		    ReportManager.test.get().info("base Url : " + urlString);
 		    ReportManager.test.get().info("pricing.endpoint : " + pathString);
+		    ReportManager.test.get().info("Error Message : " + errorMessage);
 
 		    // ❌ FAIL CONDITION
 		    if (httpStatus == 500 || apiStatus == 500) {
@@ -84,6 +86,8 @@ public class PricingTest extends BaseTest {
 
 			ReportManager.test.get().fail("Test Failed: " + e.getMessage());
 			ReportManager.test.get().pass("Pricing API Test Passed Successfully");
+			
+			
 
 			throw e;
 		}
