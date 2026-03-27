@@ -2,50 +2,16 @@
 <testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T11:03:31 IST" name="Default suite" finished-at="2026-03-26T11:03:35 IST" duration-ms="4195">
+  <suite started-at="2026-03-26T12:54:17 IST" name="Default suite" finished-at="2026-03-26T12:54:28 IST" duration-ms="10755">
     <groups>
     </groups>
-    <test started-at="2026-03-26T11:03:31 IST" name="Default test" finished-at="2026-03-26T11:03:35 IST" duration-ms="4195">
+    <test started-at="2026-03-26T12:54:17 IST" name="Default test" finished-at="2026-03-26T12:54:28 IST" duration-ms="10755">
       <class name="testAPI.PricingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:30 IST" name="setup" finished-at="2026-03-26T11:03:31 IST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:16 IST" name="setup" finished-at="2026-03-26T12:54:17 IST" duration-ms="866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:32 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T11:03:35 IST" duration-ms="3347" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=ON, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=120.0, skidCount=3.0, destinationCity=LONDON, xDock=FALSE, pieces=3.0, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=AIRDRIE, width=48.0, weightUoM=kg, custAccountId=492279.0, declaredWeight=4500.0, accessorial1Value=RAIL, originProvince=AB, height=70.0}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[HTTP Status Code not 200]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: HTTP Status Code not 200
-at org.testng.Assert.fail(Assert.java:111)
-at testAPI.PricingTest.pricingTest(PricingTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:32 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T11:03:35 IST" duration-ms="3347" status="FAIL">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:18 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T12:54:28 IST" duration-ms="9550" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -79,41 +45,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:32 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T11:03:35 IST" duration-ms="3369" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=QC, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=2.0, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2.0, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145.0, weightUoM=kg, custAccountId=456725.0, declaredWeight=700.0, accessorial1Value=RAIL, originProvince=BC, height=70.0}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[HTTP Status Code not 200]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: HTTP Status Code not 200
-at org.testng.Assert.fail(Assert.java:111)
-at testAPI.PricingTest.pricingTest(PricingTest.java:80)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:32 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T11:03:35 IST" duration-ms="3367" status="FAIL">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:18 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T12:54:28 IST" duration-ms="9550" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -147,7 +79,75 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:32 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T11:03:35 IST" duration-ms="3386" status="FAIL">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:18 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T12:54:28 IST" duration-ms="9550" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=QC, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48.0, skidCount=2.0, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2.0, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145.0, weightUoM=kg, custAccountId=456725.0, declaredWeight=700.0, accessorial1Value=RAIL, originProvince=BC, height=70.0}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[HTTP Status Code not 200]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: HTTP Status Code not 200
+at org.testng.Assert.fail(Assert.java:111)
+at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:18 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T12:54:28 IST" duration-ms="9550" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=ON, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=120.0, skidCount=3.0, destinationCity=LONDON, xDock=FALSE, pieces=3.0, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=AIRDRIE, width=48.0, weightUoM=kg, custAccountId=492279.0, declaredWeight=4500.0, accessorial1Value=RAIL, originProvince=AB, height=70.0}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[HTTP Status Code not 200]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: HTTP Status Code not 200
+at org.testng.Assert.fail(Assert.java:111)
+at testAPI.PricingTest.pricingTest(PricingTest.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:18 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-03-26T12:54:28 IST" duration-ms="9550" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAPI.PricingTest@663411de]" started-at="2026-03-26T11:03:35 IST" name="tearDown" finished-at="2026-03-26T11:03:36 IST" duration-ms="454" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAPI.PricingTest@7b84fcf8]" started-at="2026-03-26T12:54:28 IST" name="tearDown" finished-at="2026-03-26T12:54:29 IST" duration-ms="716" status="FAIL">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA['java.lang.String com.sun.mail.util.MimeUtil.cleanContentType(jakarta.mail.internet.MimePart, java.lang.String)']]>
