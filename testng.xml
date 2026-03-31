@@ -3,7 +3,7 @@
 
     <test name="API Tests">
         <classes>
-            <class name="com.test.ApiTest"/>
+            <class name="com.test.PricingTest"/>
         </classes>
     </test>
 
