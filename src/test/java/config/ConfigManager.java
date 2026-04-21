@@ -13,7 +13,7 @@ public class ConfigManager {
         String env = System.getProperty("env");
 
         if (env == null) {
-            env = "uat";  // default environment
+            env = "dev";  // default environment
         }
 
         try {

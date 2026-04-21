@@ -1,0 +1,2320 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 21, 2026 11:34:39 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 481041</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:20:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 481041</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:02 am</span>
+<span class='badge badge-default'>00:00:20:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=3, CommodityNames=All Products, destinationCity=RED DEER, xDock=FALSE, pieces=3, accessorial3Code=, dimUoM=in, accessorial1Code=TG, accessorial3Value=, originCity=ORANGEVILLE, width=60, weightUoM=kg, custAccountId=481041, declaredWeight=800, accessorial1Value=DELIVERY, originProvince=ON, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 830,
+            "actualBolDensity": 7,
+            "cubingFactor": 10,
+            "bolCube": 350,
+            "appliedWeight": 3500,
+            "baseRate": 24.19,
+            "totalBaseCharge": 846.65,
+            "totalChargesWithFuel": 1176,
+            "fuelCharge": 329.35,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 61.3,
+            "totalAccessorialCharges": 50,
+            "totalChargesWithAccessorial": 1226,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 50
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response Time: 13013 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 830,
+            "actualBolDensity": 7,
+            "cubingFactor": 10,
+            "bolCube": 350,
+            "appliedWeight": 3500,
+            "baseRate": 24.19,
+            "totalBaseCharge": 846.65,
+            "totalChargesWithFuel": 1176,
+            "fuelCharge": 329.35,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 61.3,
+            "totalAccessorialCharges": 50,
+            "totalChargesWithAccessorial": 1226,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 50
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsNaRx6iuCXiSiR9mK"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 450360</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:18:208</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Pricing Test - Account: 450360</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:34:59 am</span>
+<span class='badge badge-default'>00:00:18:208</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=3, CommodityNames=, destinationCity=CALGARY, xDock=FALSE, pieces=3, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=SAINT-LIBOIRE, width=60, weightUoM=kg, custAccountId=450360, declaredWeight=800, accessorial1Value=, originProvince=QC, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        },
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Response Time: 10900 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        },
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          ❌ Expected success but got error response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:59 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        },
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 492279</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:24:245</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 492279</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:05 am</span>
+<span class='badge badge-default'>00:00:24:245</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=148, skidCount=1, CommodityNames=All Products, destinationCity=CALGARY, xDock=FALSE, pieces=1, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=TORONTO, width=48, weightUoM=kg, custAccountId=492279, declaredWeight=4500, accessorial1Value=RAIL, originProvince=ON, height=40}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 835,
+            "actualBolDensity": 27,
+            "cubingFactor": 10,
+            "bolCube": 164,
+            "appliedWeight": 12333.33,
+            "baseRate": 10.89,
+            "totalBaseCharge": 1343.1,
+            "totalChargesWithFuel": 2326.25,
+            "fuelCharge": 983.15,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 371.57,
+            "totalAccessorialCharges": 155,
+            "totalChargesWithAccessorial": 2481.25,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 85
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Response Time: 16876 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 835,
+            "actualBolDensity": 27,
+            "cubingFactor": 10,
+            "bolCube": 164,
+            "appliedWeight": 12333.33,
+            "baseRate": 10.89,
+            "totalBaseCharge": 1343.1,
+            "totalChargesWithFuel": 2326.25,
+            "fuelCharge": 983.15,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 371.57,
+            "totalAccessorialCharges": 155,
+            "totalChargesWithAccessorial": 2481.25,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 85
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:05 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQscmhq4LYtJKrdNues"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 492279</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:21:914</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 492279</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:03 am</span>
+<span class='badge badge-default'>00:00:21:914</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=ON, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=48, skidCount=3, CommodityNames=All Products, destinationCity=LONDON, xDock=FALSE, pieces=3, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=CALGARY, width=40, weightUoM=kg, custAccountId=492279, declaredWeight=4500, accessorial1Value=RAIL, originProvince=AB, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 832,
+            "actualBolDensity": 58,
+            "cubingFactor": 10,
+            "bolCube": 233,
+            "appliedWeight": 13500,
+            "baseRate": 12.4,
+            "totalBaseCharge": 1674,
+            "totalChargesWithFuel": 2899.37,
+            "fuelCharge": 1225.37,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 444.66,
+            "totalAccessorialCharges": 70,
+            "totalChargesWithAccessorial": 2969.37,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response Time: 14511 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 832,
+            "actualBolDensity": 58,
+            "cubingFactor": 10,
+            "bolCube": 233,
+            "appliedWeight": 13500,
+            "baseRate": 12.4,
+            "totalBaseCharge": 1674,
+            "totalChargesWithFuel": 2899.37,
+            "fuelCharge": 1225.37,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 444.66,
+            "totalAccessorialCharges": 70,
+            "totalChargesWithAccessorial": 2969.37,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsSkCo7tS7UQM2Z9h5"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 492279</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:22:406</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 492279</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:03 am</span>
+<span class='badge badge-default'>00:00:22:406</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=ON, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=125, skidCount=1, CommodityNames=All Products, destinationCity=LONDON, xDock=FALSE, pieces=1, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=CALGARY, width=20, weightUoM=kg, custAccountId=492279, declaredWeight=4500, accessorial1Value=RAIL, originProvince=AB, height=20}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 828,
+            "actualBolDensity": 156,
+            "cubingFactor": 10,
+            "bolCube": 29,
+            "appliedWeight": 10416.67,
+            "baseRate": 12.4,
+            "totalBaseCharge": 1291.67,
+            "totalChargesWithFuel": 2237.17,
+            "fuelCharge": 945.5,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 354.48,
+            "totalAccessorialCharges": 130,
+            "totalChargesWithAccessorial": 2367.17,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 60
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Response Time: 15044 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 828,
+            "actualBolDensity": 156,
+            "cubingFactor": 10,
+            "bolCube": 29,
+            "appliedWeight": 10416.67,
+            "baseRate": 12.4,
+            "totalBaseCharge": 1291.67,
+            "totalChargesWithFuel": 2237.17,
+            "fuelCharge": 945.5,
+            "fuelProgram": "FCAC",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 354.48,
+            "totalAccessorialCharges": 130,
+            "totalChargesWithAccessorial": 2367.17,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                },
+                {
+                    "taxCode": "QST/PST_9.975",
+                    "taxRate": 0.1
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 10
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 25
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 60
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsUtgxXXFTS9yGXHkk"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 456725</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:20:946</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 456725</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:02 am</span>
+<span class='badge badge-default'>00:00:20:946</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=QC, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=2, CommodityNames=All Products, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145, weightUoM=kg, custAccountId=456725, declaredWeight=700, accessorial1Value=RAIL, originProvince=BC, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 829,
+            "actualBolDensity": 2,
+            "cubingFactor": 10,
+            "bolCube": 564,
+            "appliedWeight": 12083.33,
+            "baseRate": 12.7,
+            "totalBaseCharge": 1534.58,
+            "totalChargesWithFuel": 3396.03,
+            "fuelCharge": 1861.45,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 179.05,
+            "totalAccessorialCharges": 185,
+            "totalChargesWithAccessorial": 3581.03,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 150
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response Time: 13414 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 829,
+            "actualBolDensity": 2,
+            "cubingFactor": 10,
+            "bolCube": 564,
+            "appliedWeight": 12083.33,
+            "baseRate": 12.7,
+            "totalBaseCharge": 1534.58,
+            "totalChargesWithFuel": 3396.03,
+            "fuelCharge": 1861.45,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 179.05,
+            "totalAccessorialCharges": 185,
+            "totalChargesWithAccessorial": 3581.03,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "LONG FREIGHT  (LU)",
+                    "charge": 150
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsNcfThReTQ6ZPQfXd"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 461313</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:20:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 461313</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:02 am</span>
+<span class='badge badge-default'>00:00:20:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=130, skidCount=1, CommodityNames=F.A.K, destinationCity=EDMONTON, xDock=FALSE, pieces=1, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=461313, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 834,
+            "actualBolDensity": 21,
+            "cubingFactor": 10,
+            "bolCube": 211,
+            "appliedWeight": 10833.33,
+            "baseRate": 13.32,
+            "totalBaseCharge": 1443,
+            "totalChargesWithFuel": 3193.36,
+            "fuelCharge": 1750.36,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 159.67,
+            "totalAccessorialCharges": 0,
+            "totalChargesWithAccessorial": 3193.36,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response Time: 13010 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 834,
+            "actualBolDensity": 21,
+            "cubingFactor": 10,
+            "bolCube": 211,
+            "appliedWeight": 10833.33,
+            "baseRate": 13.32,
+            "totalBaseCharge": 1443,
+            "totalChargesWithFuel": 3193.36,
+            "fuelCharge": 1750.36,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 159.67,
+            "totalAccessorialCharges": 0,
+            "totalChargesWithAccessorial": 3193.36,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ],
+    "errors": [
+        {
+            "errorMessage": " Invalid accessorial code."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:01 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsNcfPVfH2WFvKosdc"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 479637</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:22:165</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pricing Test - Account: 479637</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:03 am</span>
+<span class='badge badge-default'>00:00:22:165</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=SK, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=70, skidCount=1, CommodityNames=F.A.K, destinationCity=REGINA, xDock=FALSE, pieces=1, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=GUELPH, width=40, weightUoM=kg, custAccountId=479637, declaredWeight=5000, accessorial1Value=RAIL, originProvince=ON, height=60}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 827,
+            "actualBolDensity": 51,
+            "cubingFactor": 10,
+            "bolCube": 97,
+            "appliedWeight": 5000,
+            "baseRate": 13.93,
+            "totalBaseCharge": 696.5,
+            "totalChargesWithFuel": 1210.17,
+            "fuelCharge": 513.67,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 75.26,
+            "totalAccessorialCharges": 295,
+            "totalChargesWithAccessorial": 1505.17,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 225
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response Time: 14729 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "SUCCESS",
+    "status": 200,
+    "data": [
+        {
+            "LogId": 827,
+            "actualBolDensity": 51,
+            "cubingFactor": 10,
+            "bolCube": 97,
+            "appliedWeight": 5000,
+            "baseRate": 13.93,
+            "totalBaseCharge": 696.5,
+            "totalChargesWithFuel": 1210.17,
+            "fuelCharge": 513.67,
+            "fuelProgram": "CFFNFLD",
+            "ratesheetRateType": "AS-IS",
+            "ratesheetLaneType": "",
+            "taxAmount": 75.26,
+            "totalAccessorialCharges": 295,
+            "totalChargesWithAccessorial": 1505.17,
+            "taxApplied": [
+                {
+                    "taxCode": "GST/HST_5",
+                    "taxRate": 0.05
+                }
+            ],
+            "accessorialChargeList": [
+                {
+                    "accessorialName": "DANGEROUS GOODS CHGE  (DG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "TailGate  (TG)",
+                    "charge": 35
+                },
+                {
+                    "accessorialName": "Private Residence  (PR)",
+                    "charge": 225
+                }
+            ],
+            "Note": "** This quote is provided as an estimate only and does not constitute a binding agreement.The quote has been calculated based on the weight, description and services declared at time of quote (see above).Final charges may vary based on actual shipment details, including weight, size, and/or any additional services needed but not originally requested.** Rate is subject to any and all applicable taxes.** We reserve the right to edit, change or cancel the spot quote if the freight is not shipped within 30 calendar days from the date of issuance of this quote.** Unless an executed Terms and Conditions agreement is in place between the Customer and the Carrier, Customer agrees Carrier's standard Terms and Conditions, as published on the Carriers official website, shall apply unless specifically stated otherwise."
+        }
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          ✅ API validation passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:03 am</td>
+        <td>
+          AI Analysis: <pre>{"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011CaGQsTmiUoQSqJVtJoSvi"}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 450360</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:10:691</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Pricing Test - Account: 450360</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:34:51 am</span>
+<span class='badge badge-default'>00:00:10:691</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=3, CommodityNames=FRATE EXPRESS, S/ GREENLINE
+, destinationCity=CALGARY, xDock=FALSE, pieces=3, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Response: <pre>{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "customerRequest": [
+            "The customerRequest field is required."
+        ],
+        "$.CommodityNames[0]": [
+            "'0x0A' is invalid within a JSON string. The string should be correctly escaped. Path: $.CommodityNames[0] | LineNumber: 7 | BytePositionInLine: 49."
+        ]
+    },
+    "traceId": "8000054b-1003-1200-b63f-84710c7967bb"
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          HTTP Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Response Time: 3713 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          HTTP Status: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Response: <pre>{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "customerRequest": [
+            "The customerRequest field is required."
+        ],
+        "$.CommodityNames[0]": [
+            "'0x0A' is invalid within a JSON string. The string should be correctly escaped. Path: $.CommodityNames[0] | LineNumber: 7 | BytePositionInLine: 49."
+        ]
+    },
+    "traceId": "8000054b-1003-1200-b63f-84710c7967bb"
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          ❌ Expected success but got error response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          HTTP Status: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:51 am</td>
+        <td>
+          Response: <pre>{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "customerRequest": [
+            "The customerRequest field is required."
+        ],
+        "$.CommodityNames[0]": [
+            "'0x0A' is invalid within a JSON string. The string should be correctly escaped. Path: $.CommodityNames[0] | LineNumber: 7 | BytePositionInLine: 49."
+        ]
+    },
+    "traceId": "8000054b-1003-1200-b63f-84710c7967bb"
+}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 450360</p>
+            <p class="text-sm">
+              <span>11:34:41 am</span> / <span>00:00:21:035</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Pricing Test - Account: 450360</h5>
+<span class='badge badge-success'>04.21.2026 11:34:41 am</span>
+<span class='badge badge-danger'>04.21.2026 11:35:02 am</span>
+<span class='badge badge-default'>00:00:21:035</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=NB, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=48, skidCount=3, CommodityNames=MOTOR PARTS AND ACCCESSORIES , SHIPPER: KIMPEX INC -- DRUMMONDVILLE, QC, destinationCity=BALMORAL, xDock=FALSE, pieces=3, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=DRUMMONDVILLE, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=RAIL, originProvince=QC, height=70}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response Time: 14084 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          ❌ Expected success but got error response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          HTTP Status: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:35:02 am</td>
+        <td>
+          Response: <pre>{
+    "isError": false,
+    "responseCode": "ATMPRC-RATESHEET_NORATEAPI_MESSAGE-M",
+    "status": 422,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "Rate Sheet doesn't have this lane rates."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pricing Test - Account: 479637</p>
+            <p class="text-sm">
+              <span>11:34:51 am</span> / <span>00:00:05:780</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Pricing Test - Account: 479637</h5>
+<span class='badge badge-success'>04.21.2026 11:34:51 am</span>
+<span class='badge badge-danger'>04.21.2026 11:34:57 am</span>
+<span class='badge badge-default'>00:00:05:780</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Request Data: <pre>{destinationProvince=SK, =, stackable=, accessorial2Value=, accessorial2Code=, length=70, skidCount=1, CommodityNames=, destinationCity=REGINA, xDock=FALSE, pieces=1, accessorial3Code=, dimUoM=, accessorial1Code=, accessorial3Value=, originCity=GUELPH, width=40, weightUoM=, custAccountId=479637, declaredWeight=5000, accessorial1Value=, originProvince=ON, height=60}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Response: <pre>{
+    "isError": true,
+    "responseCode": "BAD_REQUEST",
+    "status": 400,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "cuftItemDetails[0] weightUoM must be either 'lb' or 'kg'."
+        },
+        {
+            "errorMessage": "cuftItemDetails[0] dimUoM must be either 'in' or 'cm'."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          HTTP Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Response Time: 5745 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Environment: dev
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Base URL: https://atm.fastfrate.com
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Endpoint: /dev-pricing-api/api/pricing/GetCustomerPriceQuoteV2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          HTTP Status: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Response: <pre>{
+    "isError": true,
+    "responseCode": "BAD_REQUEST",
+    "status": 400,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "cuftItemDetails[0] weightUoM must be either 'lb' or 'kg'."
+        },
+        {
+            "errorMessage": "cuftItemDetails[0] dimUoM must be either 'in' or 'cm'."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          ❌ Expected success but got error response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          HTTP Status: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:57 am</td>
+        <td>
+          Response: <pre>{
+    "isError": true,
+    "responseCode": "BAD_REQUEST",
+    "status": 400,
+    "data": [
+        
+    ],
+    "errors": [
+        {
+            "errorMessage": "cuftItemDetails[0] weightUoM must be either 'lb' or 'kg'."
+        },
+        {
+            "errorMessage": "cuftItemDetails[0] dimUoM must be either 'in' or 'cm'."
+        }
+    ],
+    "exceptions": [
+        
+    ]
+}</pre>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 21, 2026 11:34:39 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 21, 2026 11:35:05 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='63%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='36%'><b>4</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='5%'><b>7</b> events passed</small></div>
+<div>
+<small data-tooltip='9%'><b>12</b> events failed,
+<b data-tooltip='%'>106</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Pricing Test - Account: 481041":20.94,"Pricing Test - Account: 450360":18.208,"Pricing Test - Account: 492279":24.245,"Pricing Test - Account: 492279":21.914,"Pricing Test - Account: 492279":22.406,"Pricing Test - Account: 456725":20.946,"Pricing Test - Account: 461313":20.94,"Pricing Test - Account: 479637":22.165,"Pricing Test - Account: 450360":10.691,"Pricing Test - Account: 450360":21.035,"Pricing Test - Account: 479637":5.78
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Environment</td>
+<td>DEV</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 7,
+failEvents: 12,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 106
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

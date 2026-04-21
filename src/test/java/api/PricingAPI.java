@@ -13,7 +13,7 @@ public class PricingAPI {
 
 	    boolean xDock = Boolean.parseBoolean(data.get("xDock").toLowerCase());
 	    boolean stackable = Boolean.parseBoolean(data.get("stackable").toLowerCase());
-
+	    String CommodityNames = String.valueOf(data.get("CommodityNames")).toLowerCase();
 	    int custId = (int) Double.parseDouble(data.get("custAccountId"));
 	    int skidCount = (int) Double.parseDouble(data.get("skidCount"));
 	    int pieces = (int) Double.parseDouble(data.get("pieces"));
@@ -21,6 +21,8 @@ public class PricingAPI {
 	    int length = (int) Double.parseDouble(data.get("length"));
 	    int width = (int) Double.parseDouble(data.get("width"));
 	    int height = (int) Double.parseDouble(data.get("height"));
+	    
+	    //"CommodityNames": ["%s"],
 
 	    String payload = """
 	        {
@@ -30,6 +32,7 @@ public class PricingAPI {
 	          "originProvince": "%s",
 	          "destinationProvince": "%s",
 	          "xDock": %b,
+	          "CommodityNames": ["%s"],
 	          "cuftItemDetails": [
 	            {
 	              "skidCount": %d,
@@ -65,6 +68,7 @@ public class PricingAPI {
 	            data.get("originProvince"),
 	            data.get("destinationProvince"),
 	            xDock,
+	            CommodityNames,
 	            skidCount,
 	            pieces,
 	            declaredWeight,

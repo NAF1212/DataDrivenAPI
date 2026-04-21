@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="pricingTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="pricingTest" invocation-numbers="7 8 9"/>
         </methods>
       </class> <!-- testAPI.PricingTest -->
     </classes>

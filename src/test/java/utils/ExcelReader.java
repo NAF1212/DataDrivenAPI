@@ -6,36 +6,57 @@ import java.util.*;
 
 public class ExcelReader {
 
-	public static Object[][] getData(String sheetName) throws Exception {
+    public static Object[][] getData(String sheetName) throws Exception {
 
-		String path = System.getProperty("user.dir") + "/src/test/java/resources/CustomerAPIData.xlsx";
+        String path = System.getProperty("user.dir") + "/src/test/java/resources/CustomerAPIData.xlsx";
 
-		FileInputStream fis = new FileInputStream(path);
-		Workbook wb = WorkbookFactory.create(fis);
-		Sheet sheet = wb.getSheet(sheetName);
+        FileInputStream fis = new FileInputStream(path);
+        Workbook wb = WorkbookFactory.create(fis);
+        Sheet sheet = wb.getSheet(sheetName);
 
-		Row headerRow = sheet.getRow(0);
-		int rows = sheet.getPhysicalNumberOfRows();
-		int cols = headerRow.getPhysicalNumberOfCells();
+        if (sheet == null) {
+            throw new RuntimeException("Sheet not found: " + sheetName);
+        }
 
-		Object[][] data = new Object[rows - 1][1];
+        DataFormatter formatter = new DataFormatter();
 
-		for (int i = 1; i < rows; i++) {
+        Row headerRow = sheet.getRow(0);
+        if (headerRow == null) {
+            throw new RuntimeException("Header row is missing in sheet: " + sheetName);
+        }
 
-			Map<String, String> rowData = new HashMap<>();
+        int rows = sheet.getPhysicalNumberOfRows();
+        int cols = headerRow.getLastCellNum();
 
-			for (int j = 0; j < cols; j++) {
+        Object[][] data = new Object[rows - 1][1];
 
-				String key = headerRow.getCell(j).toString();
-				String value = sheet.getRow(i).getCell(j).toString();
+        for (int i = 1; i < rows; i++) {
 
-				rowData.put(key, value);
-			}
+            Row currentRow = sheet.getRow(i);
+            Map<String, String> rowData = new HashMap<>();
 
-			data[i - 1][0] = rowData;
-		}
+            for (int j = 0; j < cols; j++) {
 
-		wb.close();
-		return data;
-	}
+                // ✅ Safe header read
+                Cell headerCell = headerRow.getCell(j, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                String key = formatter.formatCellValue(headerCell).trim();
+
+                // ✅ Safe row read
+                String value = "";
+                if (currentRow != null) {
+                    Cell cell = currentRow.getCell(j, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                    value = formatter.formatCellValue(cell);
+                }
+
+                rowData.put(key, value);
+            }
+
+            data[i - 1][0] = rowData;
+        }
+
+        wb.close();
+        fis.close();
+
+        return data;
+    }
 }
