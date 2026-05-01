@@ -3,36 +3,37 @@ package utils;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+import config.ConfigManager;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ReportManager {
 
-    public static ExtentReports extent;
-    public static ThreadLocal<ExtentTest> test =
-            new ThreadLocal<>();
+	public static ExtentReports extent;
+	public static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
-    private static String reportPath;
+	private static String reportPath;
 
-    public static void initReport() {
+	public static void initReport() {
 
-        String time = new SimpleDateFormat(
-                "yyyyMMdd_HHmmss").format(new Date());
+		String env = ConfigManager.get("env");
 
-        reportPath = "reports/DailyReport_" + time + ".html";
+		String time = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-        ExtentSparkReporter reporter =
-                new ExtentSparkReporter(reportPath);
+		reportPath = "reports/DailyReport_" + env.toUpperCase() + "_" + time + ".html";
 
-        extent = new ExtentReports();
-        extent.attachReporter(reporter);
-    }
+		ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
 
-    public static String getReportPath() {
-        return reportPath;
-    }
+		extent = new ExtentReports();
+		extent.attachReporter(reporter);
+	}
 
-    public static void flushReport() {
-        extent.flush();
-    }
+	public static String getReportPath() {
+		return reportPath;
+	}
+
+	public static void flushReport() {
+		extent.flush();
+	}
 }
