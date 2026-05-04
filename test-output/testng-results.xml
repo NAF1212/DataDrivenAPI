@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-01T14:37:08 IST" name="Default suite" finished-at="2026-05-01T14:37:42 IST" duration-ms="33639">
+  <suite started-at="2026-05-01T15:47:55 IST" name="Default suite" finished-at="2026-05-01T15:48:43 IST" duration-ms="48053">
     <groups>
     </groups>
-    <test started-at="2026-05-01T14:37:08 IST" name="Default test" finished-at="2026-05-01T14:37:42 IST" duration-ms="33639">
+    <test started-at="2026-05-01T15:47:55 IST" name="Default test" finished-at="2026-05-01T15:48:43 IST" duration-ms="48053">
       <class name="testAPI.PricingTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:06 IST" name="setup" finished-at="2026-05-01T14:37:08 IST" duration-ms="1818" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:53 IST" name="setup" finished-at="2026-05-01T15:47:55 IST" duration-ms="1189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:34 IST" duration-ms="24257" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:34 IST" duration-ms="24259" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39126" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:36 IST" duration-ms="25890" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,18 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:37 IST" duration-ms="27039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=SK, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=70, skidCount=1, CommodityNames=F.A.K, destinationCity=REGINA, xDock=FALSE, pieces=1, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=GUELPH, width=40, weightUoM=kg, custAccountId=479637, declaredWeight=5000, accessorial1Value=RAIL, originProvince=ON, height=60}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:36 IST" duration-ms="25888" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="38930" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,51 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:34 IST" duration-ms="24259" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=130, skidCount=1, CommodityNames=F.A.K, destinationCity=EDMONTON, xDock=FALSE, pieces=1, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=461313, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:35 IST" duration-ms="24865" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=QC, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=2, CommodityNames=All Products, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145, weightUoM=kg, custAccountId=456725, declaredWeight=700, accessorial1Value=RAIL, originProvince=BC, height=70}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:34 IST" duration-ms="24253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=3, CommodityNames=FRATE EXPRESS, S/ GREENLINE, destinationCity=CALGARY, xDock=FALSE, pieces=3, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:35 IST" duration-ms="25162" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{destinationProvince=NB, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=48, skidCount=3, CommodityNames=MOTOR PARTS AND ACCCESSORIES,SHIPPER: KIMPEX INC -- DRUMMONDVILLE, QC, destinationCity=BALMORAL, xDock=FALSE, pieces=3, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=DRUMMONDVILLE, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=RAIL, originProvince=QC, height=70}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:10 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:38 IST" duration-ms="27922" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,7 +66,62 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:34 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:42 IST" duration-ms="7190" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="38927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=NB, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=48, skidCount=3, CommodityNames=MOTOR PARTS AND ACCCESSORIES,SHIPPER: KIMPEX INC -- DRUMMONDVILLE, QC, destinationCity=BALMORAL, xDock=FALSE, pieces=3, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=DRUMMONDVILLE, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=RAIL, originProvince=QC, height=70}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="38956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=3, CommodityNames=FRATE EXPRESS, S/ GREENLINE, destinationCity=CALGARY, xDock=FALSE, pieces=3, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=450360, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="38896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=AB, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=130, skidCount=1, CommodityNames=F.A.K, destinationCity=EDMONTON, xDock=FALSE, pieces=1, accessorial3Code=, dimUoM=in, accessorial1Code=, accessorial3Value=, originCity=TORONTO, width=40, weightUoM=kg, custAccountId=461313, declaredWeight=4500, accessorial1Value=, originProvince=ON, height=70}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=SK, =, stackable=TRUE, accessorial2Value=DELIVERY, accessorial2Code=TG, length=70, skidCount=1, CommodityNames=F.A.K, destinationCity=REGINA, xDock=FALSE, pieces=1, accessorial3Code=PR, dimUoM=in, accessorial1Code=DG, accessorial3Value=DELIVERY, originCity=GUELPH, width=40, weightUoM=kg, custAccountId=479637, declaredWeight=5000, accessorial1Value=RAIL, originProvince=ON, height=60}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:47:56 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:35 IST" duration-ms="39037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destinationProvince=QC, =, stackable=TRUE, accessorial2Value=, accessorial2Code=, length=48, skidCount=2, CommodityNames=All Products, destinationCity=QUEBEC CITY, xDock=FALSE, pieces=2, accessorial3Code=, dimUoM=in, accessorial1Code=DG, accessorial3Value=, originCity=DELTA, width=145, weightUoM=kg, custAccountId=456725, declaredWeight=700, accessorial1Value=RAIL, originProvince=BC, height=70}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingTest -->
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:48:35 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:43 IST" duration-ms="8082" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:35 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T14:37:42 IST" duration-ms="7336" status="PASS">
+        <test-method signature="pricingTest(java.util.Map)[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:48:35 IST" name="pricingTest" data-provider="CustomerAPIData" finished-at="2026-05-01T15:48:43 IST" duration-ms="8050" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pricingTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T14:37:42 IST" name="tearDown" finished-at="2026-05-01T14:37:43 IST" duration-ms="858" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testAPI.PricingTest@5b202a3a]" started-at="2026-05-01T15:48:43 IST" name="tearDown" finished-at="2026-05-01T15:48:43 IST" duration-ms="604" status="FAIL">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA['java.lang.String com.sun.mail.util.MimeUtil.cleanContentType(jakarta.mail.internet.MimePart, java.lang.String)']]>

@@ -2,6 +2,7 @@ package utils;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import config.ConfigManager;
 
@@ -23,10 +24,18 @@ public class ReportManager {
 
 		reportPath = "reports/DailyReport_" + env.toUpperCase() + "_" + time + ".html";
 
-		ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
+		//ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
+		
+		ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
+        spark.config().setTheme(Theme.STANDARD);
+        spark.config().setReportName("Pricing Automation");
+        spark.config().setDocumentTitle("Test Results");
 
 		extent = new ExtentReports();
-		extent.attachReporter(reporter);
+        extent.attachReporter(spark);
+        extent.setSystemInfo("Environment", "QA");
+        extent.setSystemInfo("Browser", "Chrome");
+        System.out.println("📊 Extent Report Path: " + reportPath);
 	}
 
 	public static String getReportPath() {
